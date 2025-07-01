@@ -1,9 +1,10 @@
 import React from "react"
-import LandingPageFrame from "./LandingPage.style";
+import { LandingPageFrame } from "./LandingPage.style";
+import Header from "../Header/Header";
 
 const LandingPage: React.FC = () => {
   return (<LandingPageFrame>
-    <h1>Welcome to Onboarding</h1>
+    <Header/>
   </LandingPageFrame>);
 }
 
