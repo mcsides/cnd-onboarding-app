@@ -1,7 +1,7 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import App from './App.tsx'
-import LandingPage from './components/LandingPage.tsx';
+import LandingPage from './components/LandingPage/LandingPage.tsx';
 import "./index.css";
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
