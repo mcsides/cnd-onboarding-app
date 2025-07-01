@@ -1,7 +1,8 @@
 import React from "react";
+import { Outlet } from "react-router-dom";
 
 const App: React.FC = () => {
-  return <h1>Welcome to Onboarding</h1>
+  return (<Outlet/>)
 }
 
 export default App;
