@@ -1,5 +1,11 @@
-import { styled, Toolbar } from "@mui/material";
+import { styled, Container, Toolbar } from "@mui/material";
 
-export const HeaderBar = styled(Toolbar)(() => ({
+export const HeaderContainer = styled(Container)(() => ({
+    height: "80px",
+    display: "flex"
+}))
+
+export const HeaderToolbar = styled(Toolbar)(() => ({
+    flex: 1,
     justifyContent: "space-between",
 }))
