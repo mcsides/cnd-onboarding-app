@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { Line, ActionLine } from "./Credits.style";
 
 const Credits: React.FC = () => {
-  const urlCredits = "https://storyset.com/online";
+  const urlCredits = "https://storyset.com/people";
   return (
     <Stack spacing={1}>
       <Link to={urlCredits} target="_blank">
